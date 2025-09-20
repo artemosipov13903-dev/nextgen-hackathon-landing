@@ -171,9 +171,8 @@ const Index = () => {
                 <CardTitle className="text-white">Формат</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-300">
-                  48 часов интенсивной работы в командах до 4 человек. Менторинг, воркшопы и нетворкинг включены
-                </CardDescription>
+                <CardDescription className="text-gray-300">48 часов интенсивной работы в командах до 2 человек. 
+</CardDescription>
               </CardContent>
             </Card>
           </div>
