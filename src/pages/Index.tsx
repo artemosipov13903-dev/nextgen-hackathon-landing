@@ -186,9 +186,7 @@ const Index = () => {
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Расписание
             </h2>
-            <p className="text-xl text-gray-300">
-              Три дня насыщенной программы
-            </p>
+            <p className="text-xl text-gray-300">Два дня упорной работы</p>
           </div>
 
           <div className="max-w-4xl mx-auto">
