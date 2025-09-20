@@ -212,16 +212,7 @@ const Index = () => {
                     { time: "20:00", title: "Networking ужин", icon: "Users" }
                   ]
                 },
-                {
-                  day: "День 3 - 17 декабря",
-                  events: [
-                    { time: "09:00", title: "Финальная доработка", icon: "Settings" },
-                    { time: "12:00", title: "Подготовка презентаций", icon: "FileText" },
-                    { time: "14:00", title: "Финальные презентации", icon: "Trophy" },
-                    { time: "16:00", title: "Оценка жюри", icon: "Award" },
-                    { time: "17:00", title: "Награждение победителей", icon: "Medal" }
-                  ]
-                }
+
               ].map((day, dayIndex) => (
                 <div key={dayIndex} className="bg-white/5 rounded-xl p-6 backdrop-blur-sm border border-white/10">
                   <h3 className="text-2xl font-bold text-purple-400 mb-6">{day.day}</h3>
