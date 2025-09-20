@@ -92,13 +92,13 @@ const Index = () => {
               ХАКАТОН 2024
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Создай будущее технологий за 48 часов. Присоединяйся к крупнейшему хакатону для молодых разработчиков!
+              Создай будущее технологий за 72 часа. Присоединяйся к крупнейшему хакатону для молодых разработчиков!
             </p>
             
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
               <div className="flex items-center gap-2 text-lg text-purple-300">
                 <Icon name="Calendar" size={24} />
-                <span>15-17 октября 2025</span>
+                <span>15-17 декабря 2024</span>
               </div>
               <div className="flex items-center gap-2 text-lg text-pink-300">
                 <Icon name="MapPin" size={24} />
@@ -171,7 +171,7 @@ const Index = () => {
                 <CardTitle className="text-white">Формат</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-300">48 часов интенсивной работы в командах до 2 человек. 
+                <CardDescription className="text-gray-300">72 часа интенсивной работы в командах до 4 человек. 
 </CardDescription>
               </CardContent>
             </Card>
@@ -186,14 +186,14 @@ const Index = () => {
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Расписание
             </h2>
-            <p className="text-xl text-gray-300">Два дня упорной работы</p>
+            <p className="text-xl text-gray-300">Три дня упорной работы</p>
           </div>
 
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8">
               {[
                 {
-                  day: "День 1 - 15 декабря",
+                  day: "День 1 - 15 декабря 2024",
                   events: [
                     { time: "10:00", title: "Регистрация и welcome-кофе", icon: "Coffee" },
                     { time: "11:00", title: "Торжественное открытие", icon: "Star" },
@@ -203,13 +203,23 @@ const Index = () => {
                   ]
                 },
                 {
-                  day: "День 2 - 16 декабря",
+                  day: "День 2 - 16 декабря 2024",
                   events: [
                     { time: "09:00", title: "Утренний бриф", icon: "Sun" },
                     { time: "10:00", title: "Воркшопы от партнеров", icon: "BookOpen" },
                     { time: "12:00", title: "Менторинг", icon: "MessageCircle" },
                     { time: "18:00", title: "Промежуточные презентации", icon: "Monitor" },
                     { time: "20:00", title: "Networking ужин", icon: "Users" }
+                  ]
+                },
+                {
+                  day: "День 3 - 17 декабря 2024",
+                  events: [
+                    { time: "10:00", title: "Финальная подготовка проектов", icon: "Code" },
+                    { time: "14:00", title: "Питч-сессии команд", icon: "Presentation" },
+                    { time: "16:00", title: "Оценка жюри", icon: "Users" },
+                    { time: "18:00", title: "Церемония награждения", icon: "Trophy" },
+                    { time: "19:30", title: "Закрытие хакатона", icon: "Star" }
                   ]
                 },
 
@@ -330,7 +340,7 @@ const Index = () => {
                   "Возраст: 16-25 лет",
                   "Команды до 4 человек",
                   "Можно участвовать индивидуально",
-                  "Регистрация до 10 декабря",
+                  "Регистрация до 10 декабря 2024",
                   "Базовые навыки программирования приветствуются"
                 ].map((rule, index) => (
                   <div key={index} className="flex items-center gap-2 text-gray-300">
@@ -515,7 +525,7 @@ const Index = () => {
                 <div className="flex items-start gap-4">
                   <Icon name="MapPin" size={24} className="text-purple-400 mt-1" />
                   <div>
-                    <div className="text-white font-semibold">Школа IT-навыков "БАЙТКИДС"</div>
+                    <div className="text-white font-semibold">Дворец культуры</div>
                     <div className="text-gray-300">г.Можга, ул. Наговицына,76</div>
                   </div>
                 </div>
@@ -523,8 +533,8 @@ const Index = () => {
                 <div className="flex items-start gap-4">
                   <Icon name="Clock" size={24} className="text-pink-400 mt-1" />
                   <div>
-                    <div className="text-white font-semibold">15-17 октября 2025</div>
-                    <div className="text-gray-300">48 часов упорной работы</div>
+                    <div className="text-white font-semibold">15-17 декабря 2024</div>
+                    <div className="text-gray-300">72 часа упорной работы</div>
                   </div>
                 </div>
 
@@ -554,7 +564,7 @@ const Index = () => {
                 <div className="text-center">
                   <div className="text-6xl mb-6">🚀</div>
                   <p className="text-gray-300 mb-8">
-                    Регистрация закрывается 10 декабря! Не упусти шанс стать частью технологического будущего.
+                    Регистрация закрывается 10 декабря 2024! Не упусти шанс стать частью технологического будущего.
                   </p>
                   
                   <Button 

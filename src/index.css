@@ -114,6 +114,40 @@
   .hover-scale {
     @apply transition-transform duration-300 hover:scale-105;
   }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Responsive optimizations for mobile */
+@media (max-width: 640px) {
+  .text-6xl {
+    font-size: 2.5rem !important;
+  }
+
+  .text-8xl {
+    font-size: 3rem !important;
+  }
+
+  .text-4xl {
+    font-size: 1.875rem !important;
+  }
+
+  .md\:text-6xl {
+    font-size: 2.25rem !important;
+  }
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap");
