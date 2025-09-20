@@ -98,7 +98,7 @@ const Index = () => {
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
               <div className="flex items-center gap-2 text-lg text-purple-300">
                 <Icon name="Calendar" size={24} />
-                <span>15-17 декабря 2024</span>
+                <span>15-17 декабря 2025</span>
               </div>
               <div className="flex items-center gap-2 text-lg text-pink-300">
                 <Icon name="MapPin" size={24} />
