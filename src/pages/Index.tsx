@@ -89,7 +89,7 @@ const Index = () => {
               </span>
             </h1>
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-8">
-              ХАКАТОН 2024
+              ХАКАТОН 2025
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
               Создай будущее технологий за 72 часа. Присоединяйся к крупнейшему хакатону для молодых разработчиков!
@@ -98,7 +98,7 @@ const Index = () => {
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
               <div className="flex items-center gap-2 text-lg text-purple-300">
                 <Icon name="Calendar" size={24} />
-                <span>15-17 декабря 2024</span>
+                <span>15-17 октября 2025</span>
               </div>
               <div className="flex items-center gap-2 text-lg text-pink-300">
                 <Icon name="MapPin" size={24} />
@@ -193,7 +193,7 @@ const Index = () => {
             <div className="space-y-8">
               {[
                 {
-                  day: "День 1 - 15 декабря 2024",
+                  day: "День 1 - 15 октября 2025",
                   events: [
                     { time: "10:00", title: "Регистрация и welcome-кофе", icon: "Coffee" },
                     { time: "11:00", title: "Торжественное открытие", icon: "Star" },
@@ -203,7 +203,7 @@ const Index = () => {
                   ]
                 },
                 {
-                  day: "День 2 - 16 декабря 2024",
+                  day: "День 2 - 16 октября 2025",
                   events: [
                     { time: "09:00", title: "Утренний бриф", icon: "Sun" },
                     { time: "10:00", title: "Воркшопы от партнеров", icon: "BookOpen" },
@@ -213,7 +213,7 @@ const Index = () => {
                   ]
                 },
                 {
-                  day: "День 3 - 17 декабря 2024",
+                  day: "День 3 - 17 октября 2025",
                   events: [
                     { time: "10:00", title: "Финальная подготовка проектов", icon: "Code" },
                     { time: "14:00", title: "Питч-сессии команд", icon: "Presentation" },
@@ -340,7 +340,7 @@ const Index = () => {
                   "Возраст: 16-25 лет",
                   "Команды до 4 человек",
                   "Можно участвовать индивидуально",
-                  "Регистрация до 10 декабря 2024",
+                  "Регистрация до 10 октября 2025",
                   "Базовые навыки программирования приветствуются"
                 ].map((rule, index) => (
                   <div key={index} className="flex items-center gap-2 text-gray-300">
@@ -533,7 +533,7 @@ const Index = () => {
                 <div className="flex items-start gap-4">
                   <Icon name="Clock" size={24} className="text-pink-400 mt-1" />
                   <div>
-                    <div className="text-white font-semibold">15-17 декабря 2024</div>
+                    <div className="text-white font-semibold">15-17 октября 2025</div>
                     <div className="text-gray-300">72 часа упорной работы</div>
                   </div>
                 </div>
@@ -564,7 +564,7 @@ const Index = () => {
                 <div className="text-center">
                   <div className="text-6xl mb-6">🚀</div>
                   <p className="text-gray-300 mb-8">
-                    Регистрация закрывается 10 декабря 2024! Не упусти шанс стать частью технологического будущего.
+                    Регистрация закрывается 10 октября 2025! Не упусти шанс стать частью технологического будущего.
                   </p>
                   
                   <Button 
@@ -596,10 +596,10 @@ const Index = () => {
       <footer className="py-12 border-t border-white/10">
         <div className="container mx-auto px-4 text-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
-            NextGen Hackathon 2024
+            NextGen Hackathon 2025
           </div>
           <p className="text-gray-400">
-            Создавая будущее вместе • © 2024 NextGen Team
+            Создавая будущее вместе • © 2025 NextGen Team
           </p>
         </div>
       </footer>
