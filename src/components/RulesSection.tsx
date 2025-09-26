@@ -26,9 +26,7 @@ const RulesSection = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Правила и критерии
           </h2>
-          <p className="text-xl text-gray-300">
-            Честная игра и объективная оценка
-          </p>
+          <p className="text-xl text-gray-300"></p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
