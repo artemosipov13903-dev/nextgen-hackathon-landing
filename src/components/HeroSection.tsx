@@ -25,9 +25,7 @@ const HeroSection = ({ onScrollToSection }: HeroSectionProps) => {
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-8">
             ХАКАТОН 2025
           </h2>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Создай будущее технологий за 72 часа. Присоединяйся к крупнейшему хакатону для молодых разработчиков!
-          </p>
+          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">Создай будущее технологий за 48 часов. Присоединяйся к крупнейшему хакатону для молодых разработчиков!</p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
             <div className="flex items-center gap-2 text-lg text-purple-300">
