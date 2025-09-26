@@ -35,9 +35,7 @@ const AboutSection = () => {
               <CardTitle className="text-white">Аудитория</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="text-gray-300">
-                Студенты ВУЗов, школьники 9-11 классов, молодые специалисты до 25 лет с любым уровнем подготовки
-              </CardDescription>
+              <CardDescription className="text-gray-300">Студенты ВУЗов, школьники, молодые специалисты до 18 лет с любым уровнем подготовки</CardDescription>
             </CardContent>
           </Card>
 
