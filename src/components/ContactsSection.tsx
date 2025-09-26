@@ -32,7 +32,7 @@ const ContactsSection = () => {
               <div className="flex items-start gap-4">
                 <Icon name="Clock" size={24} className="text-pink-400 mt-1" />
                 <div>
-                  <div className="text-white font-semibold">15-17 октября 2025</div>
+                  <div className="text-white font-semibold">15-16 октября 2025</div>
                   <div className="text-gray-300">48 часов упорной работы</div>
                 </div>
               </div>
