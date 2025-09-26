@@ -38,7 +38,7 @@ const HeroSection = ({ onScrollToSection }: HeroSectionProps) => {
             </div>
             <div className="flex items-center gap-2 text-lg text-green-300">
               <Icon name="Users" size={24} />
-              <span>500+ участников</span>
+              <span></span>
             </div>
           </div>
 
