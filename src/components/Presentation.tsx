@@ -20,10 +20,8 @@ const Presentation = () => {
       content: (
         <div className="text-center space-y-8">
           <div className="space-y-4">
-            <h1 className="text-6xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-              Digital Future
-            </h1>
-            <h2 className="text-4xl font-semibold text-primary">Hackathon 2024</h2>
+            <h1 className="text-6xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent"></h1>
+            <h2 className="text-4xl font-semibold text-primary">NextGen Hackathon 2025</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Создаем будущее цифровых технологий вместе
             </p>
@@ -31,11 +29,11 @@ const Presentation = () => {
           <div className="flex justify-center items-center space-x-8 text-lg">
             <div className="flex items-center space-x-2">
               <Calendar className="w-6 h-6 text-primary" />
-              <span>15-17 ноября 2024</span>
+              <span>15-16 октября 2025</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="w-6 h-6 text-primary" />
-              <span>IT Park Kazan</span>
+              <span></span>
             </div>
           </div>
         </div>
@@ -74,9 +72,7 @@ const Presentation = () => {
                 <Clock className="w-8 h-8 text-primary mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Формат</h3>
-                  <p className="text-muted-foreground">
-                    48 часов интенсивной работы в командах до 4 человек
-                  </p>
+                  <p className="text-muted-foreground">48 часов интенсивной работы в командах до 2 человек</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
