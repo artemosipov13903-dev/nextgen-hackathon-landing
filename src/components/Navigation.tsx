@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 interface NavigationProps {
   activeSection: string;
@@ -32,6 +33,12 @@ const Navigation = ({ activeSection, onSectionClick }: NavigationProps) => {
                 {item.label}
               </button>
             ))}
+            <Link 
+              to="/presentation"
+              className="text-sm transition-colors hover:text-purple-400 text-gray-300"
+            >
+              Презентация
+            </Link>
           </div>
           <Button 
             onClick={() => onSectionClick('contacts')} 
