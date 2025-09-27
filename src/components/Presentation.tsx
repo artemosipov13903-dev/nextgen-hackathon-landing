@@ -29,7 +29,7 @@ const Presentation = () => {
           <div className="flex justify-center items-center space-x-8 text-lg">
             <div className="flex items-center space-x-2">
               <Calendar className="w-6 h-6 text-primary" />
-              <span>15-16 октября 2025</span>
+              <span>15-17 ноября 2024</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="w-6 h-6 text-primary" />
