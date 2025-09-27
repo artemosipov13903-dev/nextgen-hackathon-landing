@@ -21,7 +21,7 @@ const Presentation = () => {
         <div className="text-center space-y-8">
           <div className="space-y-4">
             <h1 className="text-6xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent"></h1>
-            <h2 className="text-4xl font-semibold text-primary">Hackathon 2024</h2>
+            <h2 className="text-4xl font-semibold text-primary">NextGen Hackathon 2025</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Создаем будущее цифровых технологий вместе
             </p>
