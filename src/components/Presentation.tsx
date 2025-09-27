@@ -72,7 +72,9 @@ const Presentation = () => {
                 <Clock className="w-8 h-8 text-primary mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Формат</h3>
-                  <p className="text-muted-foreground">48 часов интенсивной работы в командах до 2 человек</p>
+                  <p className="text-muted-foreground">
+                    48 часов интенсивной работы в командах до 4 человек
+                  </p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
