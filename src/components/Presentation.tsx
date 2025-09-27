@@ -33,7 +33,7 @@ const Presentation = () => {
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="w-6 h-6 text-primary" />
-              <span>IT Park Kazan</span>
+              <span></span>
             </div>
           </div>
         </div>
