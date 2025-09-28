@@ -63,7 +63,7 @@ const ContactsSection = () => {
             <CardContent className="space-y-6">
               <div className="text-center">
                 <div className="text-6xl mb-6">🚀</div>
-                <p className="text-gray-300 mb-8">
+                <p className="mb-8 text-[#000000]">
                   Регистрация закрывается 10 октября 2025! Не упусти шанс стать частью технологического будущего.
                 </p>
                 
