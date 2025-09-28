@@ -34,7 +34,7 @@ const HeroSection = ({ onScrollToSection }: HeroSectionProps) => {
             </div>
             <div className="flex items-center gap-2 text-lg text-pink-300">
               <Icon name="MapPin" size={24} />
-              <span>г.Можга, ул. Наговицына, 76</span>
+              <span>г.Можга, ул. Наговицына, 76, офис 5.</span>
             </div>
             <div className="flex items-center gap-2 text-lg text-green-300">
               <Icon name="Users" size={24} />
