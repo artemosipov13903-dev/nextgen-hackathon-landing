@@ -48,9 +48,7 @@ const TracksSection = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Направления
           </h2>
-          <p className="text-xl text-gray-300">
-            Выбери свой трек и создай проект мечты
-          </p>
+          <p className="text-xl text-gray-300"></p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
