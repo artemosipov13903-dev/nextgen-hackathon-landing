@@ -24,7 +24,8 @@ const ContactsSection = () => {
               <div className="flex items-start gap-4">
                 <Icon name="MapPin" size={24} className="text-purple-400 mt-1" />
                 <div>
-                  <div className="text-white font-semibold">Дворец культуры</div>
+                  <div className="text-white font-semibold">
+</div>
                   <div className="text-gray-300">г.Можга, ул. Наговицына,76</div>
                 </div>
               </div>
