@@ -21,9 +21,7 @@ const AboutSection = () => {
               <CardTitle className="text-white">Цель</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="text-gray-300">
-                Объединить талантливых студентов и школьников для создания инновационных решений в сфере технологий
-              </CardDescription>
+              <CardDescription className="text-gray-300">Хакатон проводится с целью популяризации информационных технологий и программирования у учащихся младшего, среднего и старшего школьного возраста, их родителей и педагогов.</CardDescription>
             </CardContent>
           </Card>
 
