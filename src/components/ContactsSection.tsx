@@ -41,7 +41,7 @@ const ContactsSection = () => {
               <div className="flex items-start gap-4">
                 <Icon name="Mail" size={24} className="text-green-400 mt-1" />
                 <div>
-                  <div className="text-white font-semibold">hackathon@nextgen.ru</div>
+                  <div className="text-white font-semibold">https://forms.gle/TL2MTz2tqRrXrK1UA</div>
                   <div className="text-gray-300">Вопросы по участию</div>
                 </div>
               </div>
