@@ -47,7 +47,7 @@ const AboutSection = () => {
               <CardTitle className="text-white">Формат</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="text-gray-300">72 часа интенсивной работы в командах до 2 человек.</CardDescription>
+              <CardDescription className="text-gray-300">72 часа интенсивной работы в командах от 2 до 4 человек.</CardDescription>
             </CardContent>
           </Card>
         </div>
